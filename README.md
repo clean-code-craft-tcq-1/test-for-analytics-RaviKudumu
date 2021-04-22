@@ -56,7 +56,6 @@ Add to these tests:
 1. Write trend information to the PDF if csv has any
 2. Write email receiver information to the PDF
 
-(add more)
 
 ### Recognize Fakes and Reality
 
@@ -68,8 +67,8 @@ Enter one part that's real and another part that's faked/mocked.
 |--------------------------|--------------|-----------------------------|---
 Read input from server     | csv file     | internal data-structure     | Fake the server store
 Validate input             | csv data     | valid / invalid             | None - it's a pure function
-Notify report availability | _enter input | _enter output               | _enter fake or mock
-Report inaccessible server | _enter input | _enter output               | _enter fake or mock
-Find minimum and maximum   | _enter input | _enter output               | _enter fake or mock
-Detect trend               | _enter input | _enter output               | _enter fake or mock
-Write to PDF               | _enter input | _enter output               | _enter fake or mock
+Notify report availability | PDF report   | Notify the respective       | Mock the notify utility 
+Report inaccessible server | Server name  | Connection Status           | Fake the server store
+Find minimum and maximum   | csv file     | maximum and minimum         | None - it's a pure function
+Detect trend               | csv data     | find treand in data         | None - it's a pure function
+Write to PDF               | formated file| PDF with file data          | Mock the PDF utility 
