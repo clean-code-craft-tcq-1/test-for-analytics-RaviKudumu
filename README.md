@@ -52,8 +52,9 @@ Add to these tests:
 
 1. Write minimum and maximum to the PDF from a csv containing positive and negative readings
 1. Write "Invalid input" to the PDF when the csv doesn't contain expected data
-1. _enter a test
-1. _enter a test
+1. Write Number of breaches to the PDF if csv has any
+1. Write trend information to the PDF if csv has any
+2. Write email receiver information to the PDF
 
 (add more)
 
