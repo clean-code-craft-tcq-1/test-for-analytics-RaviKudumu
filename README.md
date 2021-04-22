@@ -69,6 +69,6 @@ Read input from server     | csv file     | internal data-structure     | Fake t
 Validate input             | csv data     | valid / invalid             | None - it's a pure function
 Notify report availability | PDF report   | Notify the respective       | Mock the notify utility 
 Report inaccessible server | Server name  | Connection Status           | Fake the server store
-Find minimum and maximum   | csv file     | maximum and minimum         | None - it's a pure function
+Find minimum and maximum   | csv data     | maximum and minimum         | None - it's a pure function
 Detect trend               | csv data     | find treand in data         | None - it's a pure function
 Write to PDF               | formated file| PDF with file data          | Mock the PDF utility 
